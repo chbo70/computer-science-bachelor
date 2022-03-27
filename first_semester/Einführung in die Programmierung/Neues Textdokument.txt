@@ -1,0 +1,7 @@
+#include <stdio.h> //bindet die Header-Datei um die Funktion printf richtig zu übersetzen
+#include <stdlib.h> //bindet die header-Datei für den befehl EXIT_SUCESS
+
+int main(void) { /*hier beginnt das Programm, main ist eine Funktion die in jedem Programm  enthalten sein muss, dies ist der Einstiegspunkt in einem Programm; void besagt das keine Datei übergeben wird, somit wird etwas zurückgegeben*/
+    printf("Hello World!\n"); /*die Funktion printf übergibt die Zeichenkette "Hello World!"; der Befehl \n erzwingt einen Zeilenumbruch*/
+    return EXIT_SUCCESS; // sorgt für die Rückgabe eines Wertes
+} //dies wird alles in einer geschwungenen Klammer eingetragen

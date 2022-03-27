@@ -1,0 +1,23 @@
+b)
+LDR r0, = 0xf0f
+LDR r1, = 0x0f0								? ? ? ? FLAGS
+AND r2, r0, r1								? ? ? ? FLAGS
+	1111 0000 1111 AND 1111 0000					0 0 0 0 FLAGS
+	1111 1111 1111 = 4095 = r2					0 0 0 0 FLAGS
+EORS r3, = r0 XOR r0 = 1111 0000 1111 XOR 1111 0000 1111 = 		0 1 0 0 FLAGS
+ORRS r2, = r0 OR r1 = 1111 0000 1111 OR 1111 0000 = 1111 1111 1111 	0 0 0 0 FLAGS
+
+c)
+LDR r0, = 42 =  							? ? ? ? FLAGS
+LDR r1, = 66 = 								? ? ? ? FLAGS
+CMP r0, r1 = 								1 0 0 0 FLAGS
+ADD r1, r0, r1 = 0100 0010						0 0 0 0 FLAGS
+SUBS r0, r0, r1 							1 0 0 0 FLAGS
+
+d)
+LDR r0, = 131072 = 0010 0000 0000 0000 0000				? ? ? ? FLAGS
+LDR r1, = 32768 = 	1000 0000 0000 0000				? ? ? ? FLAGS
+ADDS r2, r0, r1 = 163 840 						0 0 0 0 FLAGS
+RSBS r3, r0, r1 = r1-r0 = -98 304					1 0 0 0 FLAGS
+CMN r0, r1 = 98304							0 0 0 0 FLAGS
+MUL r4, r0, r1 = 4 294 967 296 						0 0 0 0 FLAGS

@@ -1,0 +1,11 @@
+cd Users
+cd Boon-Chung Chi
+cd '.\OneDrive - uibk.ac.at\'
+
+
+move file to zid:
+
+scp .\arm-common-mistakes-a.S csaz9837@zid-gpl.uibk.ac.at:~/
+
+login to ssh:
+ssh csaz9837@zid-gpl.uibk.ac.at

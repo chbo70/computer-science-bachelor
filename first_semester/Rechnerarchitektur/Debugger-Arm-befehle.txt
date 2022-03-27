@@ -1,0 +1,15 @@
+arm-linux-gnueabi-as -g revert.S -o revert.o
+arm-linux-gnueabi-ld revert.o -o revert 
+qemu-arm -g 1234 ./revert
+
+--qemu offen lassen und neuen terminal öffnen
+
+gdb-multiarch revert -tui -q
+set architecture arm
+target remote localhost:1234
+layout src
+layout regs
+
+Befehle:
+
+b (row) oder (funtionnames)

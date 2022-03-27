@@ -1,0 +1,22 @@
+﻿Technische Informatik - Gedächtnisprotokoll:
+3. Klausurtermin 10.9.2019; Böhne R.; 100 Punkte erreichbar:
+
+Fragen:
+- Wahrheitstabelle aus Angabe erstellen
+- KDNF aus Wahrheitstabelle erstellen
+- Mit KV vereinfachen und Schaltnetz erstellen (4x4 Feld - also 4 Eingangsvariable)
+- (Minimales) Schaltnetz nur mit einem Gattertyp (NAND oder NOR) und NOT-Gatter darstellen
+- Was ist Produktterm, Summenterm, Minterm, Maxterm, DNF, KNF, KDNF, KKFN
+- Dualität: KDNF, KKNF
+- Takt (Foliensatz: vor4_sequentielle_logik.pdf, Seite 14 vom 24. Oktober 2018): Amplitude, Zyklus/Schwingung, Flanken, Zeit, Phase,... in einem Diagramm benennen.
+- Zustandsautomat: Mealy für gegebenes Modell erstellen. Zustände und Übergänge eintragen. Angebe war soetwas wie:
+	Zustände: TECHNISCHE_INFORMATIK
+	Die einzelnen Zustände (seriell) werden abwechselnd mit 0 und 1 erreicht (Start -> 0 -> T -> 1 -> E -> 0 -> C -> 1 -> H -> 0 -> N -> 1 -> I -> ....
+	...mit einer falschen Eingabe gelangt man wieder zum Start und nur mit Eingabe von 0,1,0,1,0,1,... kommt man in den End-Zustand 1)
+- Verständnis CSA/CLA
+- Booth Algorithmus (Multiplikation)
+- ca. 10 Multiple Choice Fragen mit Punkteabzügen (DMA-Controller: unterbricht DMA die Verbindung von CPU und Adressbus/Datenbus; hat DMA direkte Verbindung zu Adressbus und Datenbus?: ...)
+- ARM: was macht  LDM/STM
+- ARM-Programm handschriftlich: Bei einer Binärzahl die erste "1" (von links nacht rechts) erkennen und ausgeben, an welcher Stelle siche die "1" befindet.
+- Anzahl von Shift-Registern bei (seriellen Dividierwerk)
+- Praxisbeispiel zur Ausgabe(Foliensatz: vor10_ein_ausgabe.pdf, ab Seite 25 vom 12. Dezember 2018): Fragen zu Kathodenmaske/Anodenmaske, Registerbelegung, wann leuchtet welches LED,...

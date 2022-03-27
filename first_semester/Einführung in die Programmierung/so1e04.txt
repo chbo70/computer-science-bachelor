@@ -1,0 +1,35 @@
+Aufgabe 1: gcc ist ein Compiler, dies übersetzt den Sourcecode in der Kommandozeile und erzeugt dann ein ausführbares Programm. Es gibt auch andere Compiler für unterschiedliche Betriebsysteme...
+
+Aufgabe 2: Mittels dem befehl gcc --version konnte ich herausfinden, dass ich die Version 9.3.0 installiert habe
+
+Aufgabe 3: Die neuste Version ist die Version: 11.2
+
+Aufgabe 4: 
+#include <stdio.h> //bindet die Header-Datei um die Funktion printf richtig zu übersetzen
+#include <stdlib.h> //bindet die header-Datei für den befehl EXIT_SUCESS
+
+int main(void) { /*hier beginnt das Programm, main ist eine Funktion die in jedem Programm  enthalten sein muss, dies ist der Einstiegspunkt in     einem Programm; void besagt das keine Datei übergeben wird, somit wird etwas zurückgegeben*/
+    printf("Hello World!\n"); /*die Funktion printf übergibt die Zeichenkette "Hello World!"; der Befehl \n erzwingt einen Zeilenumbruch*/
+    return EXIT_SUCCESS; // sorgt für die Rückgabe eines Wertes
+}                       //dies wird alles in einer geschwungenen Klammer eingetragen
+
+
+Aufgabe 5: Ein C-Quellcode ist die Datei mit dem unausgeführten Code; eine Executable ist die fertig ausführbare Datei
+
+Aufgabe 6: beim kompilieren wird der Quellcode einer Programmiersprache in eine Form übersetzt die der Computer ausführen kann, ohne diesen Schritt kann keie executable erstellt werden 
+
+Aufgabe 7:
+w - steht für "warnings"
+-Wall schaltet alle Compiler Warning Flags an
+-werror behandelt alle Fehler als Kompilierungsfehler
+-Wextra meldet alle Warnungen oder Fehler, die während der Programmkompilierung auftreten
+-wpendatic zeigt alle Warnungen an die nicht mit dem ISO C standard konform sind
+
+-std=-c11 steht spezifiziert die ISO standard Version in ISO++11
+-o s01e04 gibt den Output Namen an
+
+Aufgabe 8: 
+gcc -Wall -Werror -std=c11 s01e04.c -o s01e04
+
+./s01e04
+

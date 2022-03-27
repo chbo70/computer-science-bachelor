@@ -1,0 +1,17 @@
+csazNUMMER
+pw- as always
+
+ssh csazNUMMER@zid-gpl.uibk.ac.at
+scp ~/Downloads/DATEINAME csaz7620@zid-gpl.uibk.ac.at:~/
+
+VIM COMMANDS
+
+:wq - quit with saving changes
+:q! - quit without saving changes 
+:i  - insert mode
+
+ARM COMMANDS
+
+arm-linux-gnu-as DATEINAME.S -o DATEINAME_NEU.o
+arm-linux-gnu-ld DATEINAME_NEU.o -o DATEINAME
+./DATEINAME

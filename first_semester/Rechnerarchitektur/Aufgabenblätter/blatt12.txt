@@ -1,0 +1,37 @@
+2) 
+a) // pi * d^2/4
+
+FLDPI
+FMUL d 
+FMUL d
+FDIV c4
+
+b) // (n * (n+1)) / 2
+
+FLD c1 
+FADD n
+FMUL n
+FDIV c2
+
+c) // (-p/2) + sqrt ( ((p*p)/4) - q)
+
+FLD p 
+FMUL c2
+FLD p
+FSUBRP
+FDIV c2
+
+FLD p
+FMUL p
+FDIV c2
+FDIV c2
+FSUB q
+FSQRT
+FADDP
+
+d)
+
+//(a+b)*(c + d * (a+b) + e * (c+d))
+
+
+
