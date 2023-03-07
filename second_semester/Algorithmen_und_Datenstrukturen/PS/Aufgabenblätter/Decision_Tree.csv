@@ -1,0 +1,8 @@
+"Name","Parent","Decision","Shape","Color"
+"TowerOfHanoi(n, s1, s2 ,s3)",-1,"","Rectangle","#CFE9F7"
+"TowerOfHanoi(n-1, s1, s3, s2)","TowerOfHanoi(n, s1, s2 ,s3)","","Rectangle","#CFE9F7"
+"TowerOfHanoi(n-2, s1, s2, s3)","TowerOfHanoi(n-1, s1, s3, s2)","Yes","Rectangle","#CFE9F7"
+"TowerOfHanoi(n-2, s2 ,s3 ,s1)","TowerOfHanoi(n-1, s1, s3, s2)","No","Rectangle","#CFE9F7"
+"TowerOfHanoi(n-1, s3, s2, s1)","TowerOfHanoi(n, s1, s2 ,s3)","","Rectangle","#CFE9F7"
+"TowerOfHanoi(n-2, s3, s1, s2)","TowerOfHanoi(n-1, s3, s2, s1)","Yes","Rectangle","#CFE9F7"
+"TowerOfHanoi(n-2, s1, s2,s3)","TowerOfHanoi(n-1, s3, s2, s1)","No","Rectangle","#CFE9F7"
