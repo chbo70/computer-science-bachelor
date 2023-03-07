@@ -1,0 +1,10 @@
+File descriptor 1 is the standard output (stdout).
+File descriptor 2 is the standard error (stderr).
+
+> to indicate redirection into a file. (also < but different direction)
+
+2> to indicate redirection of only stderr into a file.
+
+>& to indicate redirection to file descriptor.
+
+2>&1 means redirect stderr into stdout.

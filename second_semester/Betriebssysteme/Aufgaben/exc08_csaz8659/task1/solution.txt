@@ -1,0 +1,1 @@
+A thread pool limits the worker thread count, so there is a balance. Too many threads are not good, and too little also aren't. The thread pool was faster than the previous solution.

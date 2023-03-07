@@ -1,0 +1,25 @@
+ls -l to view permissions.
+
+Permissions explained:
+First character is the file type (d=directory). Then each with 3 characters: owner permissions (user who created the file), group (where the owner is in), other users.
+
+Permission characters. w for write, r for read, x for execute.
+
+
+xxx is a 3-digit number of permissions where each digit can be anything from 0 to 7.
+In this number notation, the values r, w, and x have their own number value:
+
+r=4
+w=2
+x=1
+
+To come up with a 3-digit octal number you need to total their values up. For example, if you want to grant the owner of a directory read write and execution permissions, and you want group and everyone else to have just read and execute permissions, you would come up with the numerical values like so:
+
+    Owner: rwx=4+2+1=7
+    Group: r-x=4+0+1=5
+    Other: r-x=4+0+1=5
+
+Permissions can be changed with chmod <octal number> <file> or chmod u=rwx <file>, chmod go=--x <file> (change only for group and others)
+With -R parameter the directory can be affected.
+
+With umask you can specify the permissions at file creation.

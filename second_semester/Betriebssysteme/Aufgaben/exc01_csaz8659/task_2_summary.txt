@@ -1,0 +1,12 @@
+man is a program that displays information about user commands, c functions, system calls, special files, e.t.c.
+Different sections for different categories.
+File hierarchy on systemd is UNIX based.
+
+man printf gives general info, man 3 printf similar functions
+
+Navigation is done using cd, ls.
+
+Copy with cp, Move with mv, Remove with rm
+
+nano / vim as editor
+
