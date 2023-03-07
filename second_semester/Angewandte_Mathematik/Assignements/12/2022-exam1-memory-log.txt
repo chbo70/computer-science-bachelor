@@ -1,0 +1,20 @@
+Mit Formelsammlung.
+
+1) Funktionsanalyse (mit e^-x) ungerade / gerade, monoton steigend, inverse funktion (single choice)
+2) 3^(sqrt(xy)) nach x und y partiell ableiten (single choice)
+3) Einheitskreis sin cos tan einzeichnen für Winkel
+4) Explizites Euler Verfahren einsetzen
+5) Fläche unter f(x,y) berechnen (Doppelintegral)
+6) Hesse Matrix ausrechnen, Extremstellen ausrechnen, Typ von Extremstelle
+7) Cholesky-Matrix 3x3
+8) Trapezregel anwenden mit gegebenen Funktionswerten und x
+9) Taylorreihenentwicklung Terme berechnen bis 2. Grad
+10) Lagrange Polynom ausrechnen
+11) Monte Carlo integration zw. 0 und 1, 8 Zufallswerte aus Linearem Kongruenzgenerator benutzen
+12) Komplexe Zahl sqrt(2)/2 + i * sqrt(2)/2 einzeichnen und mit 2e^(i*pi/2) dividieren, Rotation beschreiben
+13) Kurvenintegral 2. Art ausrechnen, Kurve beschreiben
+14) Finite Rückwärtsdifferenz aus Tabelle ablesen, beschreiben was sie bringt
+15) Lösen von DGL durch Trennung von Variablen
+16) Satz von Rolle beschreiben mit Bild
+
+(Reihenfolge falsch)

@@ -1,0 +1,8 @@
+1.) Bankers Algorithmus mit Resource Request und erneut überprüfen
+2.) Scheduling (Tabelle gegeben mit Ankunft, Ende, Priority), Round Robin mit Zeitquantum, LRU, Priority (Preemptive), + Laufzeit und Wartezeit berechnen
+3.) TLB: Wie hoch muss die Trefferquote sein, damit der Lookup durchschnittlich maximal 3 ns beträgt?
+    TLB braucht 1ns
+    sonst 4ns
+    x * 1ns + (1 - x) + (1ns + 4ns) = 3ns
+4.) Textbeispiel zu Pipes, Shared Mem, Message Queue, auswählen welches sich eignet (für mehrere Prozesse), wo benötigt man Synchronization, was ist am schnellsten...
+5.) 8 Festplatten mit Speed & Größe gegeben, Raid 0, 1, 4, 5, 6 eintragen in Tabelle bzgl. Redundancy, Verfügbarer Speicher, Write Speed, Read Speed.

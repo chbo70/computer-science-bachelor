@@ -1,0 +1,31 @@
+# AMI Klausur
+
+- Single Choice: -y^3 + cos(x^2)
+    - monoton Steigend von sqrt(1/3) bis unendlich
+    - Oder gerade
+    - Oder ungerade
+    - Oder fallend von -sqrt(1/3) bis sqrt(1,3)
+- sin/cos/tan im Einheitskreis einzeichnen
+- Single Choice: Ein Vektorfeld war gegeben, eine Funktion war anzukreuzen
+- Single Choice: Differential von ln(y^3) + cos(x^2) ausrechnen und ankreuzen
+- (Integral von integral von sin^2(xy)+cos^2(txt) dy dx von 1 bis 0) = 1 war gegeben, überprüfen ob wahr
+- unbestimmtes Doppelintegral berechnen
+- Unterschied Sekanten- und Newton Verfahren erklären
+- Quotientenkriterium berechnen, nach kürzen bleibt infinity/infinity übrig (≥ 1, somit divergent).
+- Extremstelle in einer Funktion finden (Ableiten und nullsetzen) und mit Hesse Matrix (selbst berechnen) die Art der Extremstelle ermitteln
+- Explizit euler interpolation durchführen
+- Definition Rückwärtsdifferenz anführen, erklären, was damit approximiert wird
+- LU Zerlegung Matrizen ausrechnen (A war gegeben, man muss entsprechend umformen)
+- Separable Differentialgleichung mit gegebener Funktion durchführen
+- Integration mit Trapezregel, Grenzen sowie Punkte waren gegeben
+- Residuum berechnen (A, b und x) waren gegeben
+- Hermite Interpolation mit Matrix durchführen.
+    - P(0,2), P(1,2) und Steigung v1 = 1 bzw. v2 = 0 war gegeben
+    - Hermite Matrix anführen und ausmultiplizieren
+- Haltonsequenz bzw. van-der-Corput Sequenz berechnen (Basis 3 und 4 waren durchzuführen)
+- Komplexe Zahlen multiplizieren und in Polarform anschreiben
+    - z1 = 3 * e^(i*pi/2)
+    - z2 = -sqrt(2)/2 + i * sqrt(2)/2
+    - z2 in eulersche Schreibweise umformen
+    - z1 und z2 ausmultiplizieren
+    - Als Polarkoordinate anschreiben
