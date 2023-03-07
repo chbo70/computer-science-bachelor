@@ -1,0 +1,14 @@
+The thread implementation seems to be pretty fast.
+
+1 thread(s), 1000 allocations of size 256 - 1024 byte per thread. Avg time per thread:
+	System: 1.57 ms
+	Custom: 3.49 ms
+10 thread(s), 1000 allocations of size 256 - 1024 byte per thread. Avg time per thread:
+	System: 9.02 ms
+	Custom: 9.65 ms
+50 thread(s), 1000 allocations of size 256 - 1024 byte per thread. Avg time per thread:
+	System: 41.53 ms
+	Custom: 14.55 ms
+100 thread(s), 1000 allocations of size 32 - 128 byte per thread. Avg time per thread:
+	System: 0.38 ms
+	Custom: 17.70 ms

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d747a161-a4cb-49a0-aba4-dd9f9f407ec2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26h2VIQyUM8ZRrxD1GHsoFWkawz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/chbo70/OneDrive/Programmiermethodik/PS/Aufgaben/src/at/ac/uibk/pm/g06/csaz9837/s09&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/s09" />
+      <recent name="$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/s04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="at.ac.uibk.pm.g06.csaz9837.s09.e01" />
+      <recent name="at.ac.uibk.pm.g06.csaz9837.s08.e02" />
+      <recent name="at.ac.uibk.pm.g06.csaz9837.s07.e01" />
+      <recent name="at.ac.uibk.pm.g06.csaz9837.s06.e01" />
+      <recent name="at.ac.uibk.pm.g06.csaz9837.s05.e04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.pm.g06.csaz9837.examPrep.Application" />
+      <module name="Aufgaben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.uibk.pm.g06.csaz9837.examPrep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListSetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.pm.g06.csaz9837.s10.e02.ListSetApplication" />
+      <module name="Aufgaben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.uibk.pm.g06.csaz9837.s10.e02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalsTriangle" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.pm.g06.csaz9837.s01.eo5.PascalsTriangle" />
+      <module name="Aufgaben" />
+      <option name="PROGRAM_PARAMETERS" value="10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RockPaperScissor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.pm.g06.csaz9837.s09.e03.RockPaperScissor" />
+      <module name="Aufgaben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.uibk.pm.g06.csaz9837.s09.e03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedTripleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.pm.g06.csaz9837.midterm2.e01.SortedTripleApplication" />
+      <module name="Aufgaben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.uibk.pm.g06.csaz9837.midterm2.e01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="at.ac.uibk.pm.g06.csaz9837.s06.e01.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.pm.g06.csaz9837.s06.e01.Main" />
+      <module name="Aufgaben" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="at.ac.uibk.pm.g06.csaz9837.s10.e02.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ac.uibk.pm.g06.csaz9837.s10.e02.Test" />
+      <module name="Aufgaben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.uibk.pm.g06.csaz9837.s10.e02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PascalsTriangle" />
+      <item itemvalue="Application.at.ac.uibk.pm.g06.csaz9837.s06.e01.Main" />
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.RockPaperScissor" />
+      <item itemvalue="Application.SortedTripleApplication" />
+      <item itemvalue="Application.at.ac.uibk.pm.g06.csaz9837.s10.e02.Test" />
+      <item itemvalue="Application.ListSetApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.SortedTripleApplication" />
+        <item itemvalue="Application.RockPaperScissor" />
+        <item itemvalue="Application.ListSetApplication" />
+        <item itemvalue="Application.at.ac.uibk.pm.g06.csaz9837.s10.e02.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d747a161-a4cb-49a0-aba4-dd9f9f407ec2" name="Changes" comment="" />
+      <created>1647861520142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647861520142</updated>
+      <workItem from="1653423733376" duration="516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/s02/e02/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/midterm1/e01/Exercise1Application.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/s10/e02/ListSetApplication.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/s10/e02/ListSetApplication.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/s04/e03/PasswordCheckerTest.java</url>
+          <line>9</line>
+          <properties class="at.ac.uibk.pm.g06.csaz9837.s04.e03.PasswordCheckerTest" method="invalidBirthdayTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/midterm1/e03/Exercise3Application.java</url>
+          <line>5</line>
+          <properties class="at.ac.uibk.pm.g06.csaz9837.midterm1.e03.Exercise3Application" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/at/ac/uibk/pm/g06/csaz9837/midterm2/e01/SortedTripleApplication.java</url>
+          <line>11</line>
+          <properties class="at.ac.uibk.pm.g06.csaz9837.midterm2.e01.SortedTripleApplication" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

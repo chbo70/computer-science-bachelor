@@ -1,0 +1,5 @@
+Atomics are generally Race free and they do not need to use mutexes to avoid race conditions
+As we can see the execution time using mutexes are significant slower than using atomics
+
+Using Mutex: 3,34s
+Using Atomics: 0,06s

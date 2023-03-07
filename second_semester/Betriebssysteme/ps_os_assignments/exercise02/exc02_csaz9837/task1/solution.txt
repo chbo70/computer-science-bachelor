@@ -1,0 +1,14 @@
+You can set a environment variable by typing:
+  <VAR-NAME=...>
+and dont forget to export it:
+  <export VAR-NAME>
+
+To unset a environment variable type:
+  <unset VAR-NAME>
+
+In order to set a environment variable only for a specific command, you have to input the Variable before the command itself:
+  
+  $MY_ENV_VAR="'Hello World'" ./read_my_env_var
+
+The PATH environment variable is an executable search path, which lets the system know where to look for executables commands. For example it is possible to type bash instead of calling the whole path e.g. /usr/bin/bash
+

@@ -1,0 +1,82 @@
+a)
+Expression: 5 * 7 / 3
+Result: 11
+Type: int
+Reason: in java the division is an integer division
+
+
+b)
+Expression: 1 << 8 % 3
+Result: 4
+Type: int
+Reason: left shift 2 times since 8 % 3 = 2 -> results in 100 == 4
+
+
+c)
+Expression: (short) Integer.MAX_VALUE
+Result: -1
+Type: short
+Reason: due to the cast to short
+
+
+d)
+Expression: 23 / (double) 11
+Result: 2.090909090909091
+Type: double
+Reason: due to the double
+
+
+e)
+Expression: (double) (23/11)
+Result: 2.0
+Type: double
+Reason: because of the cast to double
+
+
+f)
+Expression: 42f
+Result: 42.0
+Type: float
+Reason: because of the f
+
+
+g)
+Expression: 4e3D
+Result: 4000.0
+Type:Double
+Reason: because of the D, but even without the d it would be a double since it is the default
+
+
+h)
+Expression: 0.1f == 0.1
+Result: false
+Type: boolean
+Reason: 0.1 will default to double; and 0.1f will be a float therefore it's false since double has a higher precisions
+
+
+i)
+Expression: "Peter=Coffee+" + 'chocolate' + 2.0
+Result: error 
+Type: it should be a String, if chocolate was under double quotation marks
+Reason: chocolate is not a character, too many characters in a character literal
+
+
+j)
+Expression: "Peter=Coffee+" + "chocolate" + 2.0
+Result: Peter=Coffee+chocolate2.0
+Type: String
+Reason: + concatenate every argument to a string
+
+
+k)
+Expression: 1 == 24 % 3 && 4 > 7 || true
+Result: true
+Type: boolean
+Reason: we don't even have to evaluate the full expression since there is a logical OR, which makes this expression always true
+
+
+l)
+Expression: 1 == 24 % 3 ? 4 : 7
+Result: 7
+Type: integer
+Reason: it is an if-then-else statement and 1 == 24 % 3 is always false

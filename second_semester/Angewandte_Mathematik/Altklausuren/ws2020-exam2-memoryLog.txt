@@ -1,0 +1,35 @@
+Zu jedem Thema 2-3 Fragen
+
+1) MC, Bei gegebener Funktion f(x) = x³ - x analysieren, ob (in Bereich) monoton steigend/fallend
+
+2) sin/cos/tan am Einheitskreis einzeichnen
+
+3) LU Zerlegung
+
+4) Expliziten Euler durchführen
+
+5) Baryzentrische Koordinaten - liegt punkt in dreieck, außerhalb oder auf linie?
+
+6) Hermite-Interpolation auf kubischer Funktion
+
+7) Frobeniusnorm berechnen
+
+8) Beschreiben, wie Newton-Verfahren zur Schnittstellensuche von 2 Funktionen funktioniert
+
+9) Finite Differenz - Wie sieht Vorwärtsdifferenz aus?
+
+10) Binomialkoeffizient - Beweise oder widerlege, dass n * (n k) = k * (n-1 k-1)
+
+11) Simple Ableitung und Integration von exp(x)
+
+12) Polarkoordinaten in 3D - aus kartesischen Koordinaten Polarkoordinaten berechnen
+
+13) Kurvenintegral 1. Art berechnen
+
+14) MC, komplexere partielle Ableitung
+
+15) Doppelintegral berechnen
+
+16) Doppelintegral - Stimmt die untenstehende Rechnung oder nicht?
+
+17) Wie ist dieses Vektorfeld definiert? (mit Bild)

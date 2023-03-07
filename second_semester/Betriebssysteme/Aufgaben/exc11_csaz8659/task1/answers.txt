@@ -1,0 +1,26 @@
+The given shared lib added 1 to the square of the integer.
+
+ldd outputs:
+        linux-vdso.so.1 (0x00007ffc68634000)
+        some_library.so => not found
+        libc.so.6 => /usr/lib/libc.so.6 (0x00007f3f99198000)
+        /lib64/ld-linux-x86-64.so.2 => /usr/lib64/ld-linux-x86-64.so.2 (0x00007f3f993d8000)
+
+    What is the difference between dynamic and static linking?
+        Dynamic linking is when the program is linked to a shared library.
+        Static linking is when the program is linked to a static library.
+
+    When would you use dynamic linking?
+        For example, if you are writing a program that uses a library that is not in the same directory as the program, you would use dynamic linking.
+
+    When would you use static linking?
+        It is useful for when you are writing a program that uses a library that is in the same directory as the program.
+        You shouldn't use static linking if you want to minimize the size of the program.
+        You should use it if you want platform independence.
+
+    What is position independent code, and why is it useful?
+        Position independent code is a feature of the x86 architecture that allows the program to be run on different machines.
+
+    What is the purpose of the LD_LIBRARY_PATH environment variable?
+        The LD_LIBRARY_PATH environment variable is used to specify the location of the dynamic libraries.
+

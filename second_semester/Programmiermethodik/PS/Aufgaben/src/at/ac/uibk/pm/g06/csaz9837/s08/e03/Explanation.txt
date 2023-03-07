@@ -1,0 +1,6 @@
+a)It does not evaluate the second parameter until the first parameter is evaluated and if the first parameter is false,
+the second parameter is not evaluated.
+
+
+b) The && needs to evaluate left and right to check what the solution is, therefore
+"some expensive computations" is printed two times.

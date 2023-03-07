@@ -1,0 +1,12 @@
+ desired output:
+  0: ./list_args
+  1: one
+  2: two words
+  3: "quotes"
+  4: 'more' "quotes"
+
+in order to print words with a space between you have to use quotation marks, so that it gets recognized as a string(array of char)
+if you want the quotation marks, then you need to backslahs it.
+
+by calling the function like this:
+./list_args one "two words" "\"quotes\"" "'more' \"quotes\""        

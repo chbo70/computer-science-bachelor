@@ -1,0 +1,25 @@
+#make
+evens=0;
+odds=0;
+for number in "$@"
+do
+    ./even $number
+    case $? in
+
+        0)
+            ((evens++))
+            ;;
+
+        1)
+            ((odds++))
+            ;;
+
+        *)
+            echo "An error occured for input $number."
+            exit $?
+            ;;
+    esac
+done
+echo "sum of even numbers: $evens"
+echo "sum of odd numbers: $odds"
+#make clean

@@ -1,0 +1,124 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cmake",
+			"cpack" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cpack",
+			"ctest" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/ctest",
+			"root" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/share/cmake-3.22"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 22,
+			"patch" : 3,
+			"string" : "3.22.3",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-fec4f5e969110ebdbe57.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 3
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-79498eabce1814f64ba9.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-8761e5fd2878800f9dba.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-90b66722e76f16c8c100.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-79498eabce1814f64ba9.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cache-v2-linux-laptop" : 
+		{
+			"error" : "unknown query file"
+		},
+		"cmakeFiles-v1" : 
+		{
+			"jsonFile" : "cmakeFiles-v1-8761e5fd2878800f9dba.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1-linux-laptop" : 
+		{
+			"error" : "unknown query file"
+		},
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-fec4f5e969110ebdbe57.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 3
+			}
+		},
+		"codemodel-v2-linux-laptop" : 
+		{
+			"error" : "unknown query file"
+		},
+		"toolchains-v1" : 
+		{
+			"jsonFile" : "toolchains-v1-90b66722e76f16c8c100.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"toolchains-v1-linux-laptop" : 
+		{
+			"error" : "unknown query file"
+		}
+	}
+}

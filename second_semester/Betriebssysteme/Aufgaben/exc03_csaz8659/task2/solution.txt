@@ -1,0 +1,5 @@
+strace analyzes the behavior of the binary file, interactions with the operating system (signals, files, etc.)
+
+First i tried to strace ./secret, but the permission was denied. I marked the file as executable with chmod +x.
+Then it started doing something.
+It tried to open a file called hint.txt, but it didn't exist. After creating it and rerunning, i got the key (it was written into hint.txt), put it in key.txt (which is also opened) and ran it again. I was presented with a success message and 1787a450.

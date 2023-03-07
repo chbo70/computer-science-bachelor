@@ -1,0 +1,25 @@
+"some_program" doesn't only use "some_library" but also other libraries.
+Like:
+    libc.so.6, linux-vdso.so.1, ld-linux-x86-64.so.2
+
+The size of "my_program" is a little bigger than the size of "some_program".
+Because "my_program" uses more libraries.
+
+What is the difference between dynamic and static linking?
+    Dynamic linking is when you link your program to a library.
+    Static linking is when you link your program to a library and then you link the library to your program.
+
+When would you use dynamic linking?
+    When you want to load a library at runtime.
+
+When would you use static linking?
+    When you want to load a library at compile time.
+
+What is position independent code, and why is it useful?
+    Position independent code is a feature of the GNU linker.
+    It allows you to link your program to a library and then link the library to your program.
+    This allows you to use the same library in multiple programs.
+
+What is the purpose of the LD_LIBRAY_PATH environment variable?
+    The LD_LIBRARY_PATH environment variable is used to specify the location of the dynamic libraries.
+

@@ -1,0 +1,10 @@
+/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/190/bin/ninja/linux/ninja -G Ninja -S /home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise10/exc10_csaz9837/task1 -B /home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise10/exc10_csaz9837/task1/cmake-build-debug
+-- The C compiler identification is GNU 12.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise10/exc10_csaz9837/task1/cmake-build-debug

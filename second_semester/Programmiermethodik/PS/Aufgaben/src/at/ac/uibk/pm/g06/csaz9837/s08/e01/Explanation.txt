@@ -1,0 +1,17 @@
+a)
+When to use Java inner classes?
+    - for more readable code, and less to write
+    - inner class can access the outer class and their fields
+    - inner classes are often used to group classes and interfaces logically
+
+What are the disadvantages of inner classes?
+    - uses more memory
+    - gets crammed up pretty fast
+
+When to use inner classes?
+    - if you have methods which don't need to get accessed by other classes
+    - it increases encapsulation
+
+b)
+The first "printContext" prints out the NestedClass Object, the second one extends the function und calls the print() function
+of the nested class and then overwrites it

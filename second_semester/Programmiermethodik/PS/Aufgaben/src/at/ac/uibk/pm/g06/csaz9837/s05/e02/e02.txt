@@ -1,0 +1,6 @@
+a)
+The Compiler automatically inserts the needed functions for the boxing/autoboxing (= valueOf). Since wrapper classes are
+just to encapsulate the datatypes
+
+b)
+Here java knows automatically to autounboxing the given value. To change it from wrapper to a primitive datatype.

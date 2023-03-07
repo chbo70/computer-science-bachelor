@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "task1",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "task1a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task1a-Debug-85dd212000dea3dbf62e.json",
+					"name" : "task1a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task1b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task1b-Debug-4e656f3e592dda93d697.json",
+					"name" : "task1b",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bonti/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise06/exc06_csaz9837/task1/cmake-build-debug",
+		"source" : "/home/bonti/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise06/exc06_csaz9837/task1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

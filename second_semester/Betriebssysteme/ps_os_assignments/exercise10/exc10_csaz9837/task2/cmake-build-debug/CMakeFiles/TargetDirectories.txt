@@ -1,0 +1,4 @@
+/home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise10/exc10_csaz9837/task2/cmake-build-debug/CMakeFiles/test.dir
+/home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise10/exc10_csaz9837/task2/cmake-build-debug/CMakeFiles/task2.dir
+/home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise10/exc10_csaz9837/task2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise10/exc10_csaz9837/task2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+The higher the sample is the more accurate the monte carlos method.
+
+The order of the messages depends on the wait(); If you put the wait in the same fro loop as the parent process,
+then the parent process will immediately continue. However if the wait is seperated the parent is still on hold and some child processes may finish faster
+
+
+
+Yes, it does matter if you seed before the fork or not. 
+It is important to seed it after creating the child processes since those are coming from the parent

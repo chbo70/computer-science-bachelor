@@ -1,0 +1,3 @@
+Mutexes is a locking mechanism, while semaphores is a signaling mechanismen. Semaphores allows you to have multiple
+program threads at the same time. However, if you use a mutex there can be multiple threads but never simultaneously!
+So in this Exercise it would not be good to use a semaphore.

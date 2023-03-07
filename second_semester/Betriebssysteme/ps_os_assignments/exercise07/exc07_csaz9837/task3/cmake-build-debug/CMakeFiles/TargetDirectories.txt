@@ -1,0 +1,3 @@
+/home/bonti/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise07/exc07_csaz9837/task3/cmake-build-debug/CMakeFiles/task3.dir
+/home/bonti/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise07/exc07_csaz9837/task3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bonti/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise07/exc07_csaz9837/task3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

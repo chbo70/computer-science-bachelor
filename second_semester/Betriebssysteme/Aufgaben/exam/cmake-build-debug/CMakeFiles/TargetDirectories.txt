@@ -1,0 +1,3 @@
+/home/chbo70/OneDrive/Betriebssysteme/PS/Aufgaben/exam/cmake-build-debug/CMakeFiles/exam.dir
+/home/chbo70/OneDrive/Betriebssysteme/PS/Aufgaben/exam/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chbo70/OneDrive/Betriebssysteme/PS/Aufgaben/exam/cmake-build-debug/CMakeFiles/rebuild_cache.dir

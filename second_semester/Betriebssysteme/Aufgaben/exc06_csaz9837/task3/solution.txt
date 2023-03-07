@@ -1,0 +1,10 @@
+What is the advantage of using a condition variable in this case, compared to using plain mutexes?
+    * with plain mutexes it can happen that the thread first locks the mutex and then unlocks the mutex
+    before the producer can write something on it
+
+    *While using a condition variable the queue (in this example) waits until it gets a signal
+
+How does the program behavior differ between the two variants? Measure the execution time of both using
+/usr/bin/time -v and report your findings.
+    * The execution time without condition variables is faster if the amount of threads is small, however if the amount
+    of threads increase the variant with condition variables are faster (without cond: 10,43s; with cond: 1,2s)

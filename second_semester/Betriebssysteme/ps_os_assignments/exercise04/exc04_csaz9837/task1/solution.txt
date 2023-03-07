@@ -1,0 +1,47 @@
+In the given example we see that the permissions start with a '-' or with 'd'. 
+'d' : indicates that this is a directory
+'-' : indicates that it is a file
+
+The permissions are seperated in 3 Blocks of three permissions:
+
+i.e.:                           drwxrwxr-x
+
+As mentioned the first letter stands for File or Directory. The next 3 letters are the 
+permissions for the owner of the file/directory. 
+
+#Note that the x for execute is only given to executable programs#
+
+The next 3 letters are the permissions for user in the same group, same rules apply here. Finally, the last 3 letters are for user on the linux system who own an UserID, so basically every user. 
+
+Now what are groups, users and others permission:
+users - permissions only apply to the owner of the file
+groups - permissions only apply to the group, they will not affect any other user
+others - permissions of every other user on the system
+
+These command can also be represeneted by octal number:
+
+Octal   Binary  File Mode
+
+0       000     ---             
+1       001     --x
+2       010     -w-
+3       011     -wx
+4       100     r--
+5       101     r-x
+6       110     rw-
+7       111     rwx
+
+The first character sets the permissions of the user, the second the permission of the group and lastly the permission of all users.
+To change the Permission we use chmod.
+
+e.g.:                   chmod 741
+        Here 7 stand for User, so the user can do everthing, 4 is asigned to the group which means they can only read the file and the 1 stands for every user and they are only allowed to execute the program.
+
+To change the permissions of all files in a directory use the wildcard (*) e.g.:
+                        chmod g+rw *
+umask: umask lets you change the default permissions for files/directories which are newly created.
+
+In an multi-user system, only the user itself should be able to read, write and execute. The group is allowed to read and execute and everyone else is only allowed to execute. So there cant be any interference with your own work by other users.
+
+The pipesecurity function can be called upon creating a new named pipe.
+

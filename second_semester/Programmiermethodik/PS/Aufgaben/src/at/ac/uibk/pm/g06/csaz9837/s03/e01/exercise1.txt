@@ -1,0 +1,17 @@
+public and private are access modifiers, they control whether other classes can call a particular method or field.
+
+private:
+It is only used in a class or method itself. Therefore, it is only visible from the same method or class, also
+classes and interfaces can't be private. The main usage is for the encapsulation, so that it hides the data from
+everything outside the class or method.
+
+
+public:
+Variables, Classes and Methods which are declared as public can be accessed from everywhere. Which means that
+we use public for top-level classes, interfaces and for the main. However, using to many public statements violates
+the Object-Oriented Programming.
+
+
+this:
+Every object has a this-reference, with "this" the object can refer to itself. Due to "this" we can differ between local
+variables and object-variables. "this" can also be returned.

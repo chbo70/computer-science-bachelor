@@ -1,0 +1,3 @@
+/home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise11/exc11_csaz9837/task2/cmake-build-debug/CMakeFiles/map_number.dir
+/home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise11/exc11_csaz9837/task2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chbo70/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise11/exc11_csaz9837/task2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

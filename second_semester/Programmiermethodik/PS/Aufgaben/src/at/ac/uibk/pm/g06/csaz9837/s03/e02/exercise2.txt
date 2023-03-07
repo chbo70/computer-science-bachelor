@@ -1,0 +1,18 @@
+Output:
+10,0 °C
+-253,1 °C
+simply setting celsius.degree = 20; wont work it messes up the output
+Use private for degree;
+
+Both Celsius and KelvinThermometer classes do nothing.
+We see that it tried to change the celsius by changing the field of Thermometer, however this is not good and
+shouldn't be done.
+
+To change the Celsius we need to call the setter, also it is implemented but never used.
+The class Thermometer is abstract, which means it wants to hide the implementation...
+
+We use an abstract class, however in the wrong way. Either we do not use an abstract class or we simply make different
+subclasses which contain the implementation.
+Just like the printMethod implementation.
+
+

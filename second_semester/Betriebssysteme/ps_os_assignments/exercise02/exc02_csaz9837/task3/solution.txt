@@ -1,0 +1,14 @@
+In order to retrieve the  return exit code in your shell type:
+  echo $?
+
+; = waits for the first command to be excuted
+&& = think of it as an AND Operator, the second command is only executed if the first command has an return code of zero
+|| = if the first command has an non zero return code, then the second argument will run, however it will display an error message. If the first command terminates succesfully then no error message will be shown, even if the second command had an error
+
+Both true and false in /usr/bin will do nothing. They only exit with a status code, which indicates the termination of the command etc.
+
+To run the executable true, which is not the shell built in you need to type the full path:
+  /usr/bin/true
+
+true: 0
+false: 1

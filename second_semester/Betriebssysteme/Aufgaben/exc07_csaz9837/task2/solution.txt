@@ -1,0 +1,4 @@
+Both the functions atomic_flag_test_and_set and atomic_flag_clear sets the flag to either true or false
+if test and set is true the value before will be returned
+the clear function changes the state of the atomic flag to false
+In summary both functions represent the mutex functions, lock and unlock

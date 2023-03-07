@@ -1,0 +1,18 @@
+difference between shared memory and e.g. a global variable:
+a global variable does not share its memory between processes. it can have a different value in each child.
+
+race condition: undesirable situation that occurs when a device or system attempts to perform two or more operations at the same time. The output is unpredictable.
+
+why do race conditions occur: as thread execution order is not defined, it occurs when two threads access a shared variable at the same time.
+
+Is the output of a program with a race condition always incorrect: no, it can be correct by coincidence.
+
+If you run your program 100 times and always get the correct result, does that mean that there is no race condition: no.
+
+synchronization: forcing a part of the code to be executed in correct (thread) order, making the behavior predictable.
+
+Why are semaphores well suited for synchronizing producer-consumer patterns: they have a counting mechanism, which can allow the writer to write concurrently.
+
+There are two ways of creating a POSIX semaphore. Which would you use when: use named semaphores when there is no accessible shared memory initialized, else use sem_init
+
+Could Task 2 also be implemented using a single semaphore: no.
