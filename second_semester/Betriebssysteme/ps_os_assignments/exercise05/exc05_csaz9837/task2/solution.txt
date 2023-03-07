@@ -1,0 +1,20 @@
+Task 2b)
+
+* 
+* a race condition is dependent on the sequenze or time of an event
+* a race condition appears, if two threads or processes try to access the same ressource, which then cause a system error
+* no, it can be correct, but it is not consistent. this means some may be correct because in the program executed correctly in this certain run
+* no, just beacause it runs correctly a 100 times doesn't mean the 101th run will be correct
+* synchronization is the cooperation of two or more processes in order to keep the correct order of execution, so that the programm will run according to the task
+* semaphores are unsigned integer values, which only have two operation sem_wait and sem_post, which simply said increments and decrements the semaphore. the reason why it is so udeful is that you can't increment if for example the one semaphore is waiting. therefore it preserves the order
+* named/unamed semaphores
+  named: named semaphores are process shared and therefore nee to be stored in an shared memory
+  unnamed: are stored in an already allocated memory, where for example global variables are, therefore it can be accessed by different processes easily
+* ye* no, it can be correct, but it is not consistent. this means some may be correct because in the program executed correctly in this certain run
+* no, just beacause it runs correctly a 100 times doesn't mean the 101th run will be correct
+* synchronization is the cooperation of two or more processes in order to keep the correct order of execution, so that the programm will run according to the task
+* semaphores are unsigned integer values, which only have two operation sem_wait and sem_post, which simply said increments and decrements the semaphore. the reason why it is so udeful is that you can't increment if for example the one semaphore is waiting. therefore it preserves the order
+* named/unamed semaphores
+  named: named semaphores are process shared and therefore nee to be stored in an shared memory
+  unnamed: are stored in an already allocated memory, where for example global variables are, therefore it can be accessed by different processes easily
+* yess

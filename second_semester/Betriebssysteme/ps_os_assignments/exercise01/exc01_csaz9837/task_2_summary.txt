@@ -1,0 +1,110 @@
+**Connecting to ZID-GPL via ssh**
+
+What does ssh stand for?
+  "Secure Shell"
+
+What are SSH Uses?
+
+  * ssh is a way to remotely acces an account on a different host
+  * Using VPN's
+  * Backing up, copying and mirroring files using SFTP
+
+How do you use SSH?
+enter the following command in your desired shell:
+
+  "ssh [username] @ [server_ip_or_hostname]"
+
+If this command is not available on your System, you can install it simply through your package manager on linux.
+If you want to log out of your SSH-Connection, type: `exit` in the commandline. 
+
+**Basic Commands in your terminal**
+
+  * pwd("print working directory") : self-explainatory; 
+    by adding the two only flags: 
+      -L : prints the symbolic path
+      -P : prints the actual path
+
+  * ls ("list") : lists all elements, that are not hidden
+    by adding flags:
+      -la : lists all elements
+      -d */ : only list directorys
+      -a : lists hidden files 
+      -lrt : sort and long listing
+      -l : long listing
+
+  * cd ("change directory") : change directorys
+      ~  : change to home directory
+      -  : change to previous directory
+      /  : change to root directory
+      .. : change to parent directory
+
+  * touch : is used to create files
+      touch <filename>
+      touch <filename> <filename>
+
+  * mkdir : is used to create a directory
+      mkdir <directory name>
+
+  * cp : copies a file/directory to another directory
+      cp <original> <destination>
+      cp <first file> <second file> <..> <destination>
+
+    by adding flags:
+      -r : copies recursive, mostly used for copying folders
+      -f : forces overwriting
+    note that you can change the filename while copying, simply change the name in yoor destination
+
+  * mv : moves files/directories into a different location
+     mv <options> <source> <destination>
+      -i : interactive mode
+      -f : force move
+
+**Help**
+
+If you dont know how to use a command simply type: "man <command>" this will show you the options as well as a description to the command. An alternative is to add a help flag(--help).
+For more information than the man page use: "info" and to search in a man page use: "apropos".
+
+**man intro**
+
+All commands have status value on termination. In order to test the value type $?, it will return 0 for a successful termination. Everything other than zero is a unsuccessful command. 
+Linux is a flavor of UNIX, which means every command on UNIX works the same in Linux and other UNIX-like systems. The traditional UNIX is a CLI(command line interface), however there are GUI's(graphical user interface), where you can click and drag.
+
+**man man-pages**
+
+This man page documents the user-space API.
+  man <section> <command title>
+
+Here are the available sections: 
+  * 1 Commands (programs)
+  * 2 System calls
+  * 3 Library calls
+  * 4 Special files (devices)
+  * 5 File formats and conventions
+  * 6 Games
+  * 7 Overview, conventions and miscellaneous
+  * 8 System management commands
+
+**man file-hierarchy**
+
+The systemd(1) system and service manager are organized based on a file system inspired by UNIX. To read more about it type: hier(7).
+
+General Structure:
+  /     : file system root
+  /boot : boot partition or on efi systems the EFI System Partition
+  /etc  : this directory holds system specific configurations, can be read only; e.g. systemd,network manager, sound system, ...
+  /home : the directory for normal user's home, it is never read only and can be shared with other systems. You can refer to it by typing: $HOME
+  /root : is the home directory of the root user, it is outside of /home to make sure that the root user can log in even without /home beeing available
+  /srv  : directory to store general server payload
+  /tmp  : the directory for smaller temporary files
+
+There are way more subdirectories, such as /usr/bin; /run; /dev ...
+
+**difference between "man printf" and "man 3 printf"**
+man 3 printf : this calls the C libraray specific function and displays the manual 
+man printf : displays the manual for the command printf and is more a overview
+
+**copy files from ZID-GPL**
+
+scp -r csaz9837@zid-gpl.uibk.ac.at:/path/exec01_csaz9837.zip ~/path on local system/
+
+

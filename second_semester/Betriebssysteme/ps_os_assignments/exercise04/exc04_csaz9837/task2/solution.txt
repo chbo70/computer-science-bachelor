@@ -1,0 +1,16 @@
+  **Operators**
+
+> : does output redirecting, which means that the commands on the left will not be printed on the screen but instead 
+    redirected to the file on the right
+
+< : is the same but reversed which means this is an input redirection. It can input the content of a file to a device or other file. 
+
+File descriptor: 0 == STDIN
+                 1 == STDOUT
+                 2 == STDERR
+
+2> : This Operator is mostly used to redirect errors to a file. It basically takes the upcoming errors and redirects it
+
+2>&1 : Redirects Error and Stdout into the given file on the right. Using this command error and content will not be shown on the stdout. Whereas ">" still prints the error.
+
+https://www.guru99.com/linux-redirection.html

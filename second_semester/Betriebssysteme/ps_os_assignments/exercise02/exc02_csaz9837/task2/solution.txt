@@ -1,0 +1,11 @@
+SIGTERM: 
+    As the name indicates it terminates the signal or programm. 
+    However it can be ignored or caught, furthermore SIGTERm doesn't kill the child processes if there are any
+
+SIGKILL:
+    SIGKILL is an immediate termination of the process along the threads. IT CANNOT be ignored or caught
+    it is often the last resort to stop a process, since it also kills all child processes
+
+By pressing ctr + c the SIGINT Signal is called, however we can bypass it or change the behaviour.
+By default it just interrupts the programm. 
+

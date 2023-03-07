@@ -1,0 +1,4 @@
+/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/189/bin/ninja/linux/ninja -G Ninja -S /home/bonti/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise06/exc06_csaz9837/task3 -B /home/bonti/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise06/exc06_csaz9837/task3/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bonti/OneDrive/Betriebssysteme/PS/ps_os_2022/exercise06/exc06_csaz9837/task3/cmake-build-debug
