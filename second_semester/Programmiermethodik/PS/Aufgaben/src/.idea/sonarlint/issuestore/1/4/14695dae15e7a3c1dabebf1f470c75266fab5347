@@ -1,0 +1,8 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ήσ—
+A
+java:S1481
+"&Remove this unused "x" local variable.(θι‹όϋÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©½‹ΐύÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(ξ–Ιόÿÿÿÿ

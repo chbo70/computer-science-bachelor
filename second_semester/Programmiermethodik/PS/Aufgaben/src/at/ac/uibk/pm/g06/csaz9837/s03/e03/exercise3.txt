@@ -1,0 +1,22 @@
+Important: if an object of  a child class is created, then the method in the child classes is called.
+Since the method in the "parent" gets overridden by the method in the child class.
+
+Top o1 = new Middle();
+Middle o2 = new Bottom();
+
+o1.m(o1) = 4
+    A new object of the "child" class Middle is created and the parameter is of Type Top, which means the method
+    with parameter (Top) in the Top class gets overridden. Therefore, 4 will be printed
+
+o1.m(o2) = 2
+    Same as before, however this time the parameter is of type Middle. Since there is no new method in the class Middle
+    the method in the Top Class gets called and 2 gets printed.
+
+o2.m(o1) = 4
+    This time a new Object of the "child" class Bottom is created, we can assume that the class Middle is now our
+    parent. Since the parameter here is of type Top, the method in Middle will be called and 4 will be printed.
+    If bottom has a class which takes a Top parameter, this would have been called instead.
+
+o2.m(o2) = 6
+    Same as before, this time the parameter is of Type Middle and since the Bottom class has such method it will
+    override the method in the Middle class and 6 will be printed.

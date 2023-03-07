@@ -1,0 +1,14 @@
+List<Integer> l1 = new LinkedList<>();
+    - this compiles just fine and is the right way to do it
+    - we could also write Integer into the Diamond Operator (<>), but its not necessary
+
+List l2 = new LinkedList();
+    - this does not compile, since there is no Type parameter for the List constructor
+
+LinkedList<Integer> l3 = new LinkedList<Integer>();
+    - this compiles just fine
+    - However, it bounds it to Linked List only, its better to write List<Integer> instead of LinkedList<Integer>
+
+List<Number> l4 = new LinkedList<Integer>();
+    - this does not compile, since the type parameter is not a Number, remove the Integer and it compiles
+    - this way it is just way more generic and you can use all types of Numbers

@@ -1,0 +1,9 @@
+
+1
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(¥‘—‘üÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

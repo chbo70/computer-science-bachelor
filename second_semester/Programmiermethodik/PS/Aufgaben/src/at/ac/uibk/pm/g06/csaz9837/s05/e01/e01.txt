@@ -1,0 +1,11 @@
+a)
+The cryptic String representation is caused by the predefined toString method of an Object. Normally you would have to
+Override the Method in order to print the actual String. Without overriding it, the hexadecimal representation of the
+HashCode will be printed. The standard toString method will always be invoked, if you pass the Object to a print method
+such as println.
+
+b)
+because without overriding equals, the method compares the references in the memory. Therefore they all return false
+since every new Object gets its own memory
+
+c)

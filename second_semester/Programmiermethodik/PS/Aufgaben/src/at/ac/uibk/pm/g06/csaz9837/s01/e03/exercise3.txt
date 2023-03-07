@@ -1,0 +1,20 @@
+c) Investigate and explain:
+(i)
+Why is it possible to declare two methods with the same name?
+(ii)
+Is it possible to define two methods with the same name and arguments but different
+return values?
+(iii)
+Remember: Java only supports call by value. Observe the variables passed to each of
+the timesTwo methods before and after the method call in the main-method. Did the
+values change? Explain why!
+
+Answers:
+(i)
+java can determinate which arguments are passed to the method,
+it checks the type and calls the right method. (overloading)
+(ii)
+No, because to overload we need the signature of a method, which are: name of method and the passed parameters
+(iii)
+No, because java creates a copy of the actual value for the method,
+which means the value in the main won't change.
